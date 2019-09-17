@@ -3,49 +3,49 @@ public class House {
 
 	public static void main(String[] args) {
 		System.out.println("This is the house that Jack built.");
-		method1();
-		method2();
-		method3();
-		method4();
-		method5();
-		method6();
+		malt();
+		rat();
+		cat();
+		dog();
+		cow();
+		maiden();
 	}
-	public static void method1() {
+	public static void malt() {
 		System.out.println("This is the malt");
 		System.out.println("That lay in the house that Jack build.");
 	}
-	public static void method2() {
+	public static void rat() {
 		System.out.println("This is the rat,");
-		method7();
+		Jack();
 	}
 
-	public static void method3() {
+	public static void cat() {
 		System.out.println("This is the cat,");
 		System.out.println("That killed the rat,");
-		method7();
+		Jack();
 	}
-	public static void method4() {
+	public static void dog() {
 		System.out.println("This is the dog,");
 		System.out.println("That worried the cat,");
 		System.out.println("That killed the rat,");
-		method7();
+		Jack();
 	}
-	public static void method5() {
+	public static void cow() {
 		System.out.println("This is the cow with the crumpled horn,");
 		System.out.println("That tossed the dog,");
 		System.out.println("That worried the cat,");
 		System.out.println("That killed the rat,");
-		method7();
+		Jack();
 	}
-	public static void method6() {
+	public static void maiden() {
 		System.out.println("This is the maiden all forlorn,");
 		System.out.println("That milked the cow with the crumpled horn,");
 		System.out.println("That tossed the dog,");
 		System.out.println("That worried the cat,");
 		System.out.println("That killed the rat,");
-		method7();
+		Jack();
 	}
-	public static void method7() {
+	public static void Jack() {
 		System.out.println("That ate the malt");
 		System.out.println("That lay in the house that Jack built.");
 	}
